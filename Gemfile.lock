@@ -38,6 +38,12 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.2.2)
+    gmail (0.4.2)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+      mime (>= 0.1)
+    gmail_xoauth (0.4.1)
+      oauth (>= 0.3.6)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.2.6)
@@ -50,9 +56,11 @@ GEM
     libv8 (3.16.14.7)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mime (0.4.2)
     mime-types (2.4.3)
     minitest (5.5.0)
     multi_json (1.10.1)
+    oauth (0.4.7)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -114,6 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  gmail
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.8)
